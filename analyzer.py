@@ -10,10 +10,13 @@ def parse_email_header(file_path):
         'Return-Path': msg.get('Return-Path'),
         'Reply-To': msg.get('Reply-To'),
         'Subject': msg.get('Subject'),
-        'Received': msg.get_all('Received')
+        'Received': msg.get_all('Received', [])
     }
 
 def parse_received_headers(received_headers):
+    if not received_headers:
+        print("No Received headers found.")
+        return []
     hops = []
     for header in received_headers:
         parts = header.split()
