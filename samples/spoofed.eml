@@ -1,0 +1,10 @@
+Message-ID: <654321@spoofed.example>
+Date: Thu, 27 Oct 2026 22:41:00 -0500
+From: spoofed@example.com
+To: recipient@example.com
+Subject: Urgent: Your account is compromised!
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+
+Your account has been compromised. Please click the link below to verify your identity.
+https://spoofed.example/verify
