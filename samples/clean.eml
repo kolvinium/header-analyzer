@@ -1,9 +1,11 @@
-Message-ID: <123456@example.com>
-Date: Thu, 27 Oct 2026 22:41:00 -0500
-From: sender@example.com
-To: recipient@example.com
-Subject: Test Email
-MIME-Version: 1.0
-Content-Type: text/plain; charset=UTF-8
+Return-Path: <alice@example.com>
+Received: from mail.example.com (mail.example.com [203.0.113.10]) by mx.example.net with ESMTPS; Tue, 27 Oct 2026 09:00:05 -0500
+Received: from laptop.local (laptop.local [192.0.2.25]) by mail.example.com with ESMTPSA; Tue, 27 Oct 2026 09:00:01 -0500
+Authentication-Results: mx.example.net; spf=pass smtp.mailfrom=example.com; dkim=pass header.d=example.com; dmarc=pass header.from=example.com
+From: Alice <alice@example.com>
+To: Bob <bob@example.net>
+Reply-To: alice@example.com
+Subject: Lab meeting Thursday
+Date: Tue, 27 Oct 2026 09:00:00 -0500
 
-This is a clean, legitimate email.
+See you Thursday.

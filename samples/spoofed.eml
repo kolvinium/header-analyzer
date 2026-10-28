@@ -1,10 +1,10 @@
-Message-ID: <654321@spoofed.example>
-Date: Thu, 27 Oct 2026 22:41:00 -0500
-From: spoofed@example.com
-To: recipient@example.com
-Subject: Urgent: Your account is compromised!
-MIME-Version: 1.0
-Content-Type: text/plain; charset=UTF-8
+Return-Path: <bounce@mailer.example.org>
+Received: from unknown (unknown [198.51.100.77]) by mx.example.net with SMTP; Tue, 27 Oct 2026 09:10:09 -0500
+Authentication-Results: mx.example.net; spf=fail smtp.mailfrom=mailer.example.org; dkim=none; dmarc=fail header.from=example.com
+From: IT Support <support@example.com>
+To: Bob <bob@example.net>
+Reply-To: helpdesk@example.net
+Subject: Urgent: verify your account
+Date: Tue, 27 Oct 2026 09:10:00 -0500
 
-Your account has been compromised. Please click the link below to verify your identity.
-https://spoofed.example/verify
+Click here to verify.
